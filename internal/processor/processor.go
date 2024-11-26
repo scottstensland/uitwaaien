@@ -19,5 +19,8 @@ func (p *Processor) Process() (image.Image, string, error) {
 	if err != nil {
 		return nil, "", err
 	}
+
+	//  make image square
+
 	return data, format, nil
 }

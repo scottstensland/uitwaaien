@@ -18,7 +18,7 @@ func run() {
 	if err != nil {
 		log.Fatal(fmt.Sprintf("Error reading config: %v", err))
 	}
-	// fmt.Println(config)
+	fmt.Println(config)
 
 	input_image_path := filepath.Join(config.MediaDir, config.DefaultImage)
 	// fmt.Println("input image path: ", input_image_path)

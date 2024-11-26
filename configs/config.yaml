@@ -4,6 +4,7 @@ constants:
   sample_rate: 44100
   default_image: "emma_new_boot.jpeg"
   media_dir: "media"
+  size_board_pixels: 128
   image_size:
     width: 640
     height: 480
